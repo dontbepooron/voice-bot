@@ -1,0 +1,22 @@
+{
+    "token": "TON_TOKEN",
+    "prefix": "=",
+    "embedColor": "#242429",
+    "emojiPositive": "`✅`",
+    "emojiNegative": "`❌`",
+    "supremeOwnerId": "123456789012345678",
+    "defaultLanguage": "fr",
+    "database": {
+        "type": "better-sqlite3",
+        "path": "./data/db.sqlite",
+        "pragma": {
+            "journal_mode": "WAL",
+            "synchronous": "NORMAL"
+        }
+    },
+    "loggingChannelId": null,
+    "performance": {
+        "useDbWorker": true,
+        "cacheTtlSeconds": 5
+    }
+}
