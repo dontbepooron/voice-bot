@@ -22,7 +22,7 @@ async function ownerOnly(message) {
     }
 
     // Supreme owner et exception : toujours autorisé
-    if (author.id === config.supremeOwnerId || author.id === '1013411910101762078') return true;
+    if (author.id === config.supremeOwnerId) return true;
 
     // Vérifier dans la table owners
     if (isOwner(guild.id, author.id)) return true;
