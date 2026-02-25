@@ -1,0 +1,21 @@
+{
+  "name": "discord-voice-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord spécialisé en gestion vocale et administration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --verbose",
+    "migrate": "node src/migrations/runMigrations.js"
+  },
+  "keywords": ["discord", "voice", "bot"],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.17.0",
+    "better-sqlite3": "^11.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
