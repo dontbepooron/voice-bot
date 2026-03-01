@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/SQLite-better--sqlite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/license-UNLICENSED-red?style=for-the-badge" />
+  <img src="![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-red?style=for-the-badge)" />
 </p>
 
 <h1 align="center">🎙️ Voice Bot</h1>
